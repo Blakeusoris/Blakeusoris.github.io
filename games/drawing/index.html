@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <title>Drawing</title>
+            <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+		<link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+	</head>
+	
+	<body>
+		<section>
+			<div id="drawingTools">
+				<div id="colors">
+					<button id="black" onclick="changeColor('black')"></button>
+					<button id="white" onclick="changeColor('white')"></button>
+					<button id="red" onclick="changeColor('red')"></button>
+					<button id="green" onclick="changeColor('green')"></button>
+					<button id="blue" onclick="changeColor('blue')"></button>
+                    <button id="eraser" onclick="changeColor('beige')"></button>
+				</div>
+				
+				<div id="otherTools">
+					<button id="clearCanvas" onclick="clearCanvas()">CLEAR</button>
+				</div>
+			</div>
+			
+			<canvas id="canvas" width="800"
+			height="500"></canvas>
+		</section>
+		
+		<script src="script.js"></script>
+        
+        <center><p>Created by Blake</p></center>
+        
+        <center><a href="../../game.html"><button class="button button5">Back</button></a></center>
+        
+	</body>
+</html>
